@@ -1,0 +1,5 @@
+select max(end_time) as Date_time,
+bike_number
+from dc_bikeshare_q1_2012
+group by bike_number
+Order by Date_time DESC;
