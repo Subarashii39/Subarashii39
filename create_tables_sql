@@ -1,0 +1,10 @@
+CREATE TABLE restuarnt(
+customer_id INT PRIMARY KEY,
+customer_name VARCHAR(30) NOT NULL,
+order_id INT UNIQUE,
+order_amount DECIMAL(5,2) DEFAULT '0.00',
+order_time DATETIME
+);
+
+//Delete tables
+DROP TABLE resturant
